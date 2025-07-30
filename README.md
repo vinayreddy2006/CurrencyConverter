@@ -1,12 +1,52 @@
-# React + Vite
+🌍 Currency Converter App
+A simple and visually appealing React-based currency converter that allows users to convert between global currencies using live exchange rates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔄 Convert between any two currencies in real-time
 
-Currently, two official plugins are available:
+🧭 Easy-to-use interface with intuitive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔃 Instantly swap "from" and "to" currencies
 
-## Expanding the ESLint configuration
+📱 Responsive design styled with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Getting Started
+✅ Prerequisites
+Node.js (v14 or higher)
+
+npm (comes with Node.js)
+
+📦 Installation
+Clone the Repository
+
+git clone https://github.com/your-username/currency-converter.git
+cd currency-converter
+Install Dependencies
+
+npm install
+Start the Development Server
+
+
+npm run dev
+Open in Your Browser
+
+Visit: http://localhost:5173 (or the port shown in your terminal)
+
+📁 Project Structure
+
+currency-converter/
+│
+├── App.jsx                # Main app logic and layout
+├── components/
+│   └── InputBox.jsx       # Currency input UI component
+├── hooks/
+│   └── useCurrencyInfo.js # Custom hook for fetching exchange rates
+├── index.css              # Tailwind CSS styles
+├── index.html             # HTML entry point
+├── main.jsx / index.js    # App entry files
+🎨 Customization
+Modify index.css for global styles
+
+Tailwind utility classes in components can be adjusted for layout and design
+
+To change default currencies, edit App.jsx as needed
